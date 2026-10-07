@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document Studio</title>
+  <script>window.__SYNCFUSION_JS_LICENSE_KEY__ = __SYNCFUSION_JS_LICENSE_JSON__;</script>
+  <link rel="icon" type="image/svg+xml" href="static/favicon.svg">
+  <link id="ej2-theme" rel="stylesheet" href="https://cdn.syncfusion.com/ej2/34.1.29/tailwind3.css">
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+      if (t === 'dark') document.getElementById('ej2-theme').href = 'https://cdn.syncfusion.com/ej2/34.1.29/tailwind3-dark.css';
+    })();
+  </script>
+  <link rel="stylesheet" href="static/style.css">
+  <script src="https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js" defer></script>
+  <script src="static/app.js" defer></script>
+</head>
+<body>
+  <header><a class="brand" href="./" aria-label="Document Studio home"><img class="brand-icon" src="static/syncfusion.svg" alt="" aria-hidden="true" width="32" height="32"> Document Studio</a><button id="theme-toggle" type="button" aria-label="Toggle color theme"><svg class="icon-sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg><svg class="icon-moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></header>
+  <main>
+    <div class="intro"><p class="eyebrow">DOCUMENT TOOLS</p><h1>Your document. Ready to share.</h1><p>Add a classification, convert to PDF, or apply a watermark.</p></div>
+    <form id="document-form">
+      <fieldset id="controls">
+        <div class="step-heading"><span class="step">1</span><h2>Choose your document</h2></div>
+        <div class="upload" id="drop-area">
+          <svg aria-hidden="true" width="36" height="40" viewBox="0 0 36 40" fill="none"><path d="M7 2h15l9 9v26H7zM22 2v10h9M13 22h12M13 28h9" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          <p id="file-label" class="upload-title">Select a file to get started</p>
+          <p id="file-help">Word, Excel, PowerPoint or PDF · Up to 25 MB</p>
+          <input id="file" type="file" aria-describedby="file-help">
+        </div>
+        <div class="step-heading second"><span class="step">2</span><h2>Choose what to do</h2></div>
+        <div class="form-grid">
+          <div><label id="operation-label" for="operation">Operation</label><input id="operation" type="text"></div>
+          <div id="label-field"><label for="label">Classification / watermark text</label><input id="label" type="text" aria-describedby="label-help"><small id="label-help">Up to 80 printable English characters.</small></div>
+        </div>
+        <p id="operation-help" class="hint">Adds the label to Word headers and footers.</p>
+        <div class="action-row"><p>Your original document stays unchanged.</p><button id="submit" type="submit">Process document →</button></div>
+      </fieldset>
+      <div id="status" class="status" role="status" aria-live="polite" hidden></div>
+      <a id="download" class="download" hidden>Download result</a>
+    </form>
+    <footer><p>Temporary files are deleted after processing.</p></footer>
+  </main>
+</body>
+</html>

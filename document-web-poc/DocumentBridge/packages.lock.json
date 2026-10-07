@@ -1,0 +1,261 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net10.0": {
+      "HarfBuzzSharp.NativeAssets.Linux": {
+        "type": "Direct",
+        "requested": "[8.3.1.2, )",
+        "resolved": "8.3.1.2",
+        "contentHash": "//Zak/ddP1XC2tMcWNEQboiFNmsQrZBnnzUyJAmibrZsd/0P1rvCaXip7MtPGkuvfwmu8Im39RytFDZERWySaw=="
+      },
+      "SkiaSharp.NativeAssets.Linux": {
+        "type": "Direct",
+        "requested": "[3.119.1, )",
+        "resolved": "3.119.1",
+        "contentHash": "9YNoc4SeKvQhrwiqwT4ezkNfMywPdPSK+UFvo/CaoXqLixcnYOTsQKm5BF9mc4+q3vKgDtEgMt0d1ygZhJTEHg=="
+      },
+      "Syncfusion.DocIORenderer.Net.Core": {
+        "type": "Direct",
+        "requested": "[34.2.5, )",
+        "resolved": "34.2.5",
+        "contentHash": "w2zTKahqsKpikGX9ae3Dm3HUdo1KbsyKcpUy8OwZsEUcRdlU/1GWlq77WZaddyWXREUlJPmSlrvp2xSH4qqitQ==",
+        "dependencies": {
+          "SkiaSharp.HarfBuzz": "3.119.1",
+          "Syncfusion.Compression.Net.Core": "34.2.5",
+          "Syncfusion.DocIO.Net.Core": "34.2.5",
+          "Syncfusion.MetafileRenderer.Net.Core": "34.2.5",
+          "Syncfusion.OfficeChart.Net.Core": "34.2.5",
+          "Syncfusion.Pdf.Imaging.Net.Core": "34.2.5",
+          "Syncfusion.Pdf.Net.Core": "34.2.5",
+          "Syncfusion.SkiaSharpHelper.Net.Core": "34.2.5"
+        }
+      },
+      "Syncfusion.PresentationRenderer.Net.Core": {
+        "type": "Direct",
+        "requested": "[34.2.5, )",
+        "resolved": "34.2.5",
+        "contentHash": "uYXhPl8KM6xCEPZqWRhcFeLJ0fH0wiXrgx3T3gkxGwro9A6w2IF/yUOSXNY/22Mx19bDlDDyLZWbxRFIhxue/A==",
+        "dependencies": {
+          "SkiaSharp": "3.119.1",
+          "Syncfusion.Compression.Net.Core": "34.2.5",
+          "Syncfusion.MetafileRenderer.Net.Core": "34.2.5",
+          "Syncfusion.OfficeChart.Net.Core": "34.2.5",
+          "Syncfusion.Pdf.Imaging.Net.Core": "34.2.5",
+          "Syncfusion.Pdf.Net.Core": "34.2.5",
+          "Syncfusion.Presentation.Net.Core": "34.2.5",
+          "Syncfusion.SkiaSharpHelper.Net.Core": "34.2.5"
+        }
+      },
+      "Syncfusion.XlsIORenderer.Net.Core": {
+        "type": "Direct",
+        "requested": "[34.2.5, )",
+        "resolved": "34.2.5",
+        "contentHash": "z4apTYUu4eNdRKHzJcEmf86+F/CtJmYPYQVWzyzZsAYS+mkj0IpZ/xYkLtAuMHOW4sq/rzgmbG+ixrYESkN65A==",
+        "dependencies": {
+          "SkiaSharp": "3.119.1",
+          "Syncfusion.Compression.Net.Core": "34.2.5",
+          "Syncfusion.MetafileRenderer.Net.Core": "34.2.5",
+          "Syncfusion.Pdf.Imaging.Net.Core": "34.2.5",
+          "Syncfusion.Pdf.Net.Core": "34.2.5",
+          "Syncfusion.SkiaSharpHelper.Net.Core": "34.2.5",
+          "Syncfusion.XlsIO.Net.Core": "34.2.5"
+        }
+      },
+      "BitMiracle.LibTiff.NET": {
+        "type": "Transitive",
+        "resolved": "2.4.649",
+        "contentHash": "XCEdfCphKo0UAvSg1h/OzOFWtjkIGnPMAziYkNqV7NVrqb/tZJTBxJhxIEX7gpvQwg8GIRYt133SUncfkKfjLA=="
+      },
+      "HarfBuzzSharp": {
+        "type": "Transitive",
+        "resolved": "8.3.1.2",
+        "contentHash": "fqZTo17dEIn/u/YZ1A6avsmF8BYoLSvDsHm+uDp38wortckHWZhJ5pMwJW97xTeOZ9/oxqwUQfRMkf6ni9s5Gw==",
+        "dependencies": {
+          "HarfBuzzSharp.NativeAssets.Win32": "8.3.1.2",
+          "HarfBuzzSharp.NativeAssets.macOS": "8.3.1.2"
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.macOS": {
+        "type": "Transitive",
+        "resolved": "8.3.1.2",
+        "contentHash": "+0NtlZSQA540z6VpVoajXldvAOuj5D+BWceh70U3YApxcpUKD/5hjdbdzvyhRaTSTCSZNjRxeaWpBpgJ1U1YcQ=="
+      },
+      "HarfBuzzSharp.NativeAssets.Win32": {
+        "type": "Transitive",
+        "resolved": "8.3.1.2",
+        "contentHash": "qmYJsYtOPVeLg7NQoKO5fq1oc5mRKzdgxBXWICx0R03epZ1RIsuzgWRFhVNN0br3c+J+9rIQhy0SXdBwVv0ebA=="
+      },
+      "SkiaSharp": {
+        "type": "Transitive",
+        "resolved": "3.119.1",
+        "contentHash": "+Ru1BTSZQne3Vp+vbSb50Ke3Nlc3ZnItxx4+751J9WZ8YzLKAV/n+9DAo4zFTyeCI//ueT63c+VybmTTpYBEiw==",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "3.119.1",
+          "SkiaSharp.NativeAssets.macOS": "3.119.1"
+        }
+      },
+      "SkiaSharp.HarfBuzz": {
+        "type": "Transitive",
+        "resolved": "3.119.1",
+        "contentHash": "+Lu9kCmxgEJVUeIljhEOgrB4dr4iwPP08jgswKk3bGPUwInmqDGUUriMoYD9prFlVa0wOWDLG/hfl3HIHNJHRg==",
+        "dependencies": {
+          "HarfBuzzSharp": "8.3.1.2",
+          "SkiaSharp": "3.119.1"
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS": {
+        "type": "Transitive",
+        "resolved": "3.119.1",
+        "contentHash": "6hR3BdLhApjDxR1bFrJ7/lMydPfI01s3K+3WjIXFUlfC0MFCFCwRzv+JtzIkW9bDXs7XUVQS+6EVf0uzCasnGQ=="
+      },
+      "SkiaSharp.NativeAssets.Win32": {
+        "type": "Transitive",
+        "resolved": "3.119.1",
+        "contentHash": "8C4GSXVJqSr0y3Tyyv5jz6MJSTVUyYkMjeKrzK+VyZPGLo89MNoUEclVuYahzOCDdtbfXrd2HtxXfDuvoSXrUw=="
+      },
+      "Syncfusion.Compression.Net.Core": {
+        "type": "Transitive",
+        "resolved": "34.2.5",
+        "contentHash": "u74psp8LjUlJCye7UBa8Z/wWdn6w7zefAADPGGI5C8rVCdua3tRIvxQuTIMmGX1B1tYUb20q3DLVAkTNDGGOiw=="
+      },
+      "Syncfusion.DocIO.Net.Core": {
+        "type": "Transitive",
+        "resolved": "34.2.5",
+        "contentHash": "3g8fYahCh5Q1l8n+LSFJHwB6jeQED+e0tm1/tlaClaniM3ojaOpQC+hsNv6ZNTejwtCAtbsNHrcGVKF8I9D5BA==",
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "34.2.5",
+          "Syncfusion.Licensing": "34.2.5",
+          "Syncfusion.Markdown": "34.2.5",
+          "Syncfusion.OfficeChart.Net.Core": "34.2.5",
+          "Syncfusion.Telemetry": "34.2.5"
+        }
+      },
+      "Syncfusion.Licensing": {
+        "type": "Transitive",
+        "resolved": "34.2.5",
+        "contentHash": "3osUk07k4SOADzZdxQAa8J22yH+QawlvXRRenOAZgE/nFcI97d7fvccailLwnvdHU1qJyD8inFudgV66zyjPrQ=="
+      },
+      "Syncfusion.Markdown": {
+        "type": "Transitive",
+        "resolved": "34.2.5",
+        "contentHash": "PLSoqc+Pr8kKs11/ZuZ6YeTl2oAPwP5a94d//fL6Et/NdRlashsHbUtirrrPwKx7USn79hZ5jUOxDeqvuCFERA==",
+        "dependencies": {
+          "Syncfusion.Licensing": "34.2.5",
+          "Syncfusion.Telemetry": "34.2.5"
+        }
+      },
+      "Syncfusion.MetafileRenderer.Net.Core": {
+        "type": "Transitive",
+        "resolved": "34.2.5",
+        "contentHash": "qpkpG8ZyI1y1vLe6klRrLJ3ehf5P8+U0pZrKxyzOKnAMnfmRj94wK1MuJ3Ec1HhYuHS9xO6lOCOT8W8CdiXUJA==",
+        "dependencies": {
+          "SkiaSharp": "3.119.1",
+          "Syncfusion.Compression.Net.Core": "34.2.5",
+          "Syncfusion.Licensing": "34.2.5",
+          "Syncfusion.Pdf.Net.Core": "34.2.5",
+          "Syncfusion.Telemetry": "34.2.5"
+        }
+      },
+      "Syncfusion.OfficeChart.Net.Core": {
+        "type": "Transitive",
+        "resolved": "34.2.5",
+        "contentHash": "VAiBjTtqMd4JPX1MBXv6LVu09J8FxyNOMld0jjI00/p87ZD6zwqCd2xXH/od1t2gPmCGzCq8RiuZNmet1LaNAQ==",
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "34.2.5"
+        }
+      },
+      "Syncfusion.Pdf.Imaging.Net.Core": {
+        "type": "Transitive",
+        "resolved": "34.2.5",
+        "contentHash": "ITrnbYMlV3aHmX5jYeU+njxxZ/1tHow5+Tco7d/UPfDedikEQHYdB/GOQv85w8CO72EagK0t/TiV080wRhnT0Q==",
+        "dependencies": {
+          "BitMiracle.LibTiff.NET": "2.4.649",
+          "SkiaSharp": "3.119.1",
+          "Syncfusion.Compression.Net.Core": "34.2.5",
+          "Syncfusion.Pdf.Net.Core": "34.2.5"
+        }
+      },
+      "Syncfusion.Pdf.Net.Core": {
+        "type": "Transitive",
+        "resolved": "34.2.5",
+        "contentHash": "znib8HQADJ7mN67ubOSsaiOb7W8AAUbc3a2EcK9spbDJJuxJTkpbPMMfjB4vAGQN8nRU/Oa8yasXbO0yiprddQ==",
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "34.2.5",
+          "Syncfusion.Licensing": "34.2.5",
+          "Syncfusion.Telemetry": "34.2.5"
+        }
+      },
+      "Syncfusion.Presentation.Net.Core": {
+        "type": "Transitive",
+        "resolved": "34.2.5",
+        "contentHash": "1CBIAvqqD2rYYnppnKsQkqmmkdCupoZ3Dnw0eHwojyflp2h3f2rqglJPoi5rPt/zgcoRVyypT+qEdvLaHOJjoA==",
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "34.2.5",
+          "Syncfusion.Licensing": "34.2.5",
+          "Syncfusion.Markdown": "34.2.5",
+          "Syncfusion.OfficeChart.Net.Core": "34.2.5",
+          "Syncfusion.Telemetry": "34.2.5"
+        }
+      },
+      "Syncfusion.SkiaSharpHelper.Net.Core": {
+        "type": "Transitive",
+        "resolved": "34.2.5",
+        "contentHash": "566aCS+4TjEB2qkWSUrgDuCClMdIgwD+u+KnzNgknT9fLEYqJRYsXiS0uMtMsZvxcJHInlnvy5YvJemneUAGzA==",
+        "dependencies": {
+          "SkiaSharp.HarfBuzz": "3.119.1",
+          "Syncfusion.Compression.Net.Core": "34.2.5"
+        }
+      },
+      "Syncfusion.Telemetry": {
+        "type": "Transitive",
+        "resolved": "34.2.5",
+        "contentHash": "9Dshcjwgik3R55iF02qdjFXcdrtDiAtVurdRXhizkb2/S7uXuk2qInbIb5Rq3++NWEHhD0Z8exXKQZj67384vw=="
+      },
+      "Syncfusion.XlsIO.Net.Core": {
+        "type": "Transitive",
+        "resolved": "34.2.5",
+        "contentHash": "En9IA7cebwh4twZmD/mwyhvTtm8G+45NEGDtR+j/DQSvHtFGpg1NC9gIkdPJs9bpD0J5VBmYoWNkUgwoVno+DA==",
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "34.2.5",
+          "Syncfusion.Licensing": "34.2.5",
+          "Syncfusion.Markdown": "34.2.5",
+          "Syncfusion.Telemetry": "34.2.5"
+        }
+      }
+    },
+    "net10.0/win-x64": {
+      "HarfBuzzSharp.NativeAssets.Linux": {
+        "type": "Direct",
+        "requested": "[8.3.1.2, )",
+        "resolved": "8.3.1.2",
+        "contentHash": "//Zak/ddP1XC2tMcWNEQboiFNmsQrZBnnzUyJAmibrZsd/0P1rvCaXip7MtPGkuvfwmu8Im39RytFDZERWySaw=="
+      },
+      "SkiaSharp.NativeAssets.Linux": {
+        "type": "Direct",
+        "requested": "[3.119.1, )",
+        "resolved": "3.119.1",
+        "contentHash": "9YNoc4SeKvQhrwiqwT4ezkNfMywPdPSK+UFvo/CaoXqLixcnYOTsQKm5BF9mc4+q3vKgDtEgMt0d1ygZhJTEHg=="
+      },
+      "HarfBuzzSharp.NativeAssets.macOS": {
+        "type": "Transitive",
+        "resolved": "8.3.1.2",
+        "contentHash": "+0NtlZSQA540z6VpVoajXldvAOuj5D+BWceh70U3YApxcpUKD/5hjdbdzvyhRaTSTCSZNjRxeaWpBpgJ1U1YcQ=="
+      },
+      "HarfBuzzSharp.NativeAssets.Win32": {
+        "type": "Transitive",
+        "resolved": "8.3.1.2",
+        "contentHash": "qmYJsYtOPVeLg7NQoKO5fq1oc5mRKzdgxBXWICx0R03epZ1RIsuzgWRFhVNN0br3c+J+9rIQhy0SXdBwVv0ebA=="
+      },
+      "SkiaSharp.NativeAssets.macOS": {
+        "type": "Transitive",
+        "resolved": "3.119.1",
+        "contentHash": "6hR3BdLhApjDxR1bFrJ7/lMydPfI01s3K+3WjIXFUlfC0MFCFCwRzv+JtzIkW9bDXs7XUVQS+6EVf0uzCasnGQ=="
+      },
+      "SkiaSharp.NativeAssets.Win32": {
+        "type": "Transitive",
+        "resolved": "3.119.1",
+        "contentHash": "8C4GSXVJqSr0y3Tyyv5jz6MJSTVUyYkMjeKrzK+VyZPGLo89MNoUEclVuYahzOCDdtbfXrd2HtxXfDuvoSXrUw=="
+      }
+    }
+  }
+}
